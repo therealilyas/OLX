@@ -5,16 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 
 <body>
+    <nav class="header navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="./img/olx-logo.png" class="logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="all categories.html">All Categories</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="mobile phones.html">Mobile Phones</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="cars.html">Cars</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="motorcycles.html">Motorcycles</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="houses.html">Houses</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="tv video audio.html">TV-Video-Audio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="tablets.html">Tablets</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="land and plots.html">Land & Plots</a>
+                </li>
+            </ul>
+            <a href="login.html">Login &nbsp;</a>
+            <a href="login.html"><button class="btn btn-outline-primary my-2 my-sm-0">Sell</button></a>
+        </div>
+    </nav>
 
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
-    <script src="js/main.js" type="module"></script>
+    <script src="router/main.js" type="module"></script>
 </body>
 
 </html>
